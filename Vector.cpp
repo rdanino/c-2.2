@@ -61,7 +61,7 @@ void Vector::assign(const Vector& second)
 		data[i] = second.data[i];
 	}
 }
-//A method that accepts as an additional vector parameter and returns true when the two vectors are identical both in their full current size and their content. Otherwise you will return false.
+/*A method that accepts as an additional vector parameter and returns true when the two vectors are identical both in their full current size and their content. Otherwise you will return false.*/
 bool Vector::isEqual(const Vector& second)
 {
 	if (size == second.size)
@@ -87,7 +87,7 @@ int& Vector::at(int index)
 	}
 	return data[index];
 }
-//A method that accepts as an additional vector parameter and performs a scalar product between two vectors. If the two vectors do not have the same number of values, type ERROR and return -1.
+/*A method that accepts as an additional vector parameter and performs a scalar product between two vectors. If the two vectors do not have the same number of values, type ERROR and return -1.*/
 int  Vector::strcatcat(const Vector& second)
 {
 	if (size != second.size)
